@@ -9,14 +9,15 @@ let subreddits = ['slavelabour', 'forhire']
 const nodemailer = require('nodemailer');
 
 // UPDATE WITH EMAIL YOU WANT TO RECEIVE AT
-let emailRecipient = "yassineakermiy@gmail.com"
+let emailRecipient = ""
 
 // UPDATE WITH YOUR SENDING EMAIL ACCOUNT
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'yassineakermiylondon@gmail.com',
-    pass: 'kgpayictsaksyivk'
+    //Email you want to send from
+    user: '',
+    pass: ''
   }
 });
 
